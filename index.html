@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOアプリ</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>TODOアプリ</h1>
+
+    <section>
+        <form id="myForm">
+            <!--テキストボックス-->
+            <label for="inputText">todoリストに追加</label>
+            <br>
+            <input type="text" id="inputText" name="inputText">
+            <!--ボタン-->
+            <input type="button" value="追加" onclick="addNewTask()">
+
+        </form>
+    </section>
+
+    <h2>TODOリスト</h2>
+    <ul id="myTask">
+
+    </ul>
+</body>
+
+</html>
